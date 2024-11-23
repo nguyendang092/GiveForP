@@ -1,10 +1,8 @@
-import React, { Component } from 'react'
-import WarnningPage from '../components/WarnningPage'
+import React from 'react';
+import WarnningPage from '../components/WarnningPage';
 
-export default class HomePage extends Component {
-  render() {
-    return (
-        <WarnningPage />
-    )
-  }
-}
+const HomePage = () => {
+  return <WarnningPage />;
+};
+
+export default HomePage;
